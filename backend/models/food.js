@@ -6,6 +6,10 @@ const foodSchema = new Schema({
         type: String,
         required: true
     },
+    name: {
+        type: String,
+        required: true
+    },
     image: {
         type: String,
         required: true
@@ -14,12 +18,16 @@ const foodSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    expireDate: {
+    expiration: {
         type: Date
     },
     quantity: {
         type: Number,
         required: true
+    },
+    freezer: {
+        type: Boolean,
+        default: false
     }
 })
 

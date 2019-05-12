@@ -20,5 +20,11 @@
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "mongoose": "^5.5.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.19.0"
   }
 }
